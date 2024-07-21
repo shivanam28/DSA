@@ -24,14 +24,18 @@ All the integers in nums appear only once except for precisely one integer which
 Follow up:
 
 How can we prove that at least one duplicate number must exist in nums?
-ans: Given that there are n+1 numbers in the range [1, n], by the pigeonhole principle, at least one number must be repeated because there are more numbers than possible unique values.
+ans: Given that there are n+1 numbers in the range [1, n], by the pigeonhole principle, 
+at least one number must be repeated because there are more numbers than possible unique values.
 
 Can you solve the problem in linear runtime complexity?
-ans: This algorithm runs in linear time, O(n), and uses constant extra space, O(1), making it an efficient and optimal solution for this problem.
+ans: This algorithm runs in linear time, O(n), and uses constant extra space, 
+O(1), making it an efficient and optimal solution for this problem.
 
 SOLUTION BELOW !!!
 
-To solve the problem of finding the duplicate number in an array without modifying the array and using only constant extra space, we can use a clever algorithm known as Floyd's Tortoise and Hare (Cycle Detection) algorithm. This algorithm is typically used for detecting cycles in linked lists, but it can be adapted for this problem
+To solve the problem of finding the duplicate number in an array without modifying the array and using only constant extra space, 
+we can use a clever algorithm known as Floyd's Tortoise and Hare (Cycle Detection) algorithm. 
+This algorithm is typically used for detecting cycles in linked lists, but it can be adapted for this problem
 '''
 
 def findDuplicate(nums):
