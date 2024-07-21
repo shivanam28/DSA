@@ -19,17 +19,15 @@ Constraints:
 1 <= n <= 105
 nums.length == n + 1
 1 <= nums[i] <= n
-All the integers in nums appear only once except for precisely one integer which appears two or more times.
+All the integers in nums appear only once except for precisely one integer which occurs two or more times.
 
 Follow up:
 
 How can we prove that at least one duplicate number must exist in nums?
-ans: Given that there are n+1 numbers in the range [1, n], by the pigeonhole principle, 
-at least one number must be repeated because there are more numbers than possible unique values.
+ans: Given that there are n+1 numbers in the range [1, n], by the pigeonhole principle, at least one number must be repeated because there are more numbers than possible unique values.
 
 Can you solve the problem in linear runtime complexity?
-ans: This algorithm runs in linear time, O(n), and uses constant extra space, 
-O(1), making it an efficient and optimal solution for this problem.
+ans: This algorithm runs in linear time, O(n), and uses constant extra space, O(1), making it an efficient and optimal solution for this problem.
 
 SOLUTION BELOW !!!
 
